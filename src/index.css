@@ -58,7 +58,317 @@
 	--font-family: "SF Pro Display", sans-serif;
 }
 
-.hello {
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background: #e8e8e8;
+}
+
+.header__container {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.header__left-container {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+.header__right-container {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.header__names {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 19px;
+	text-align: center;
+	color: #7c7c7c;
+}
+
+.header__telephone-number {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	color: #444;
+	text-decoration: none;
+}
+
+.header__telephone-button {
+	display: none;
+}
+
+.header__button {
+	border: 1px solid #c4c4c4;
+	border-radius: 2px;
+	width: 160px;
+	height: 30px;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+	color: #444;
+	background: #e8e8e8;
+}
+
+hr {
+	width: 100vw;
+	color: #C4C4C4;
+	border: 1px solid;
+	position: relative;
+	
+}
+
+
+
+
+
+.main-block__images {
+	position: relative;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	top: 40px;
+}
+
+.main-block__images__img1 {
+	margin-left: 104px;
+	z-index: 1000;
+}
+
+.main-block__images__img2 {
+	margin-right: 136px;
+	z-index: 1000;
+}
+
+.main-text {
+	text-wrap: nowrap;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	font-family: var(--font-family);
 	font-weight: 900;
+	font-size: 24px;
+	text-align: center;
+	color: #7c7c7c;
+}
+
+.main-block__gray-block {
+	width: 100%;
+	background-color: #7c7c7c;
+	position: relative;
+	z-index: 6000;
+	padding-inline: 100px;
+	padding-top: 20px;
+	padding-bottom: 35px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.woman-biography {
+	width: 423px;
+}
+
+.woman-biography h5 {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 14px;
+	color: #fff;
+}
+
+.woman-biography h4 {
+	font-family: var(--font-family);
+	font-weight: 300;
+	font-size: 20px;
+	color: #fff;
+}
+
+.woman-biography p {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.woman-biography blockquote {
+	font-family: var(--font-family);
+	font-style: italic;
+	font-weight: 300;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 16px;
+}
+
+.Ekat-Alina {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+}
+
+.main__logo {
+	height: 116px;
+	width: 116px;
+}
+
+
+@media (max-width: 1400px) {
+	.main-text {
+		top: -4%;
+	}
+	.Ekat-Alina {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 1100px) {
+	.main-block__gray-block {
+		padding-inline: 20px;
+	}
+	.main-block__images__img1 {
+		margin-left: 20px;
+	}
+	
+	.main-block__images__img2 {
+		margin-right: 30px;
+	}
+
+	.woman-biography {
+		width: 300px;
+	}
+}
+
+@media (max-width: 900px) {
+	.main-block__images__img1 {
+		width: calc(469px * 0.7);
+  		height: auto;
+	}
+	
+	.main-block__images__img2 {
+		width: calc(381px * 0.7);
+  		height: auto;
+	}
+	.main-block__images {
+		top: 60px;
+	}
+}
+
+@media (max-width: 768px) {
+	.header__logo svg {
+		height: 37px;
+		width: 37px;
+	}
+	.header__telephone-number {
+		display: none;
+	}
+	.header__svg-button {
+		display: none;
+	}
+	.header__telephone-button {
+		display: inline;
+	}
+	.header__container {
+		height: 50px;
+		justify-content: space-between;
+		padding-inline: 20px;
+	}
+	.header__right-container {
+		gap: 20px;
+	}
+
+
+	.Ekat-Alina {
+		position: absolute;
+		top: 0px;
+		left: 50%;
+		transform: translateX(-50%) scale(0.7);
+	}
+
+	.main-block__gray-block {
+		padding-top: 150px;
+		padding-inline: 10px;
+		gap: 40px;
+	}
+}
+
+@media (max-width: 550px) {
+	.main-block__images__img1 {
+		width: calc(469px * 0.5);
+  		height: auto;
+	}
+	
+	.main-block__images__img2 {
+		width: calc(381px * 0.5);
+  		height: auto;
+	}
+	.main-text {
+		font-size: 18px;
+		text-wrap: wrap;
+		top: -30px;
+	}
+
+	.main-block {
+		position: relative;
+		top: 30px;
+	}
+}
+
+@media (max-width: 450px) {
+	.header__logo svg {
+		height: 37px;
+		width: 37px;
+	}
+	.header__names {
+		font-size: 12px;
+	}
+	.header__button {
+		width: 93px;
+		height: 30px;
+		font-size: 10px;
+		text-wrap: nowrap;
+		padding: 0
+	}
+	.header__container {
+		padding-inline: 10px;
+	}
+	.header__left-container {
+		gap: 5px;
+	}
+
+	.woman-biography h5 {
+		font-size: 10px;
+	}
+	
+	.woman-biography h4 {
+		font-size: 10px;
+	}
+	
+	.woman-biography p {
+		font-size: 10px;
+	}
+	
+	.woman-biography blockquote {
+		font-size: 10px;
+	}
+	
+	.main-block__images__img1 {
+		margin-left: -50px;
+	}
+	
+	.main-block__images__img2 {
+		width: calc(381px * 0.5);
+  		height: auto;
+	}
 }
