@@ -1,11 +1,15 @@
 import Header from "./components/Header"
 import MainBlock from "./components/MainBlock"
+import Services from "./components/Services"
+import FixedBlock from "./components/FixedBlock"
 
 function App() {
   return (
     <>
-		<Header />
-		<MainBlock />
+      <Header />
+      <FixedBlock />
+      <MainBlock />
+      <Services />
     </>
   )
 }
