@@ -256,6 +256,7 @@ hr {
 
 .services-section {
 	padding-inline: 100px;
+	margin-bottom: 45px;
 }
 
 .services-main-text {
@@ -405,17 +406,29 @@ hr {
     
     transform: scaleX(0);
     transform-origin: right;
-    transition: transform 0.2s ease;
+    transition: all 0.2s ease;
 }
 .service-block__link:hover::after {
     transform: scaleX(1);
     transform-origin: left;
 }
 
+.service-spread {
+	position: absolute;
+	right: 13px;
+	top: 57px;
+	display: none !important;
+}
+
+.line-off {
+	display: none;
+}
+
 .fixed-block {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
+	width: 52px;
 	position: fixed;
 	z-index: 50000;
 	right: 24px;
@@ -537,9 +550,73 @@ hr {
 		position: relative;
 		top: 30px;
 	}
+	.service-block {
+		width: 320px;
+		height: 153px;
+		padding-top: 13px;
+		min-height: 0px;
+		overflow: hidden;
+	}
+	.def-div {
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		border-radius: 3px;
+		box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+		width: 320px;
+		height: auto;
+		min-height: 0px;
+		padding-top: 13px;
+		padding-bottom: 11px;
+		padding-inline: 28px;
+		position: relative;
+		overflow: hidden;
+		animation: spread 0.5s ease;
+	}
+	.service-block__last > svg:first-of-type {
+		transform: scale(0.8125);
+		flex-shrink: 0
+	}
+	.service-block > svg:first-of-type {
+		transform: scale(0.8125);
+		flex-shrink: 0
+	}
+	.def-div > svg:first-of-type {
+		transform: scale(0.8125);
+		flex-shrink: 0;
+		display: block;
+		margin: auto;
+		margin-bottom: 21px;
+	}
+	.service-block__paragraph {
+		font-family: var(--font-family);
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 94%;
+		text-align: center;
+		color: #444;
+		letter-spacing: -1.3px;
+		text-wrap: nowrap;
+	}
+	.service-block__last {
+		width: 320px;
+		height: 153px;
+		padding-top: 13px;
+		min-height: 0px;
+		overflow: hidden;
+	}
 }
 
 @media (max-width: 450px) {
+	.fixed-block {
+		display: flex;
+		flex-direction: column;
+		gap: 9px;
+		position: fixed;
+		z-index: 50000;
+		left: 0px;
+		top: 30%;
+	}
 	.header__logo svg {
 		height: 37px;
 		width: 37px;
@@ -585,4 +662,9 @@ hr {
 		width: calc(381px * 0.5);
   		height: auto;
 	}
+}
+
+@keyframes spread {
+    0% { max-height: 153px; }
+    100% { max-height: 800px; }
 }
