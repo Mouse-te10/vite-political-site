@@ -5,6 +5,8 @@ import FixedBlock from "../FixedBlock/FixedBlock"
 import FeaturesList from "../FeaturesList/FeaturesList"
 import ConsultationSection from "../ConsultationSection/ConsultationSection"
 import ConsultationSectionForMobile from "../ConsultationSectionForMobile/ConsultationSectionForMobile"
+import Advantages from "../Advantages/Advantages"
+import ContactUs from "../ContactUs/ContactUs"
 
 function Main() {
   return (
@@ -16,6 +18,8 @@ function Main() {
 	  <FeaturesList />
 	  <ConsultationSection />
 	  <ConsultationSectionForMobile />
+	  <Advantages />
+	  <ContactUs />
     </>
   )
 }
