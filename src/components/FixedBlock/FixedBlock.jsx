@@ -1,3 +1,4 @@
+import './styles.css'
 const FixedBlock = () => {
     return (
         <div className="fixed-block">

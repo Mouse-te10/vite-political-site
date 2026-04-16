@@ -1,0 +1,38 @@
+.services-section {
+	padding-inline: 100px;
+	margin-bottom: 45px;
+}
+
+.services-main-text {
+	font-family: var(--font-family);
+	font-weight: 900;
+	font-size: 24px;
+	text-align: center;
+	color: #7c7c7c;
+	margin-top: 54px;
+	margin-bottom: 34px;
+}
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+@media (max-width: 1100px) {
+	.services-section {
+		padding-inline: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.services {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 450px) {
+	.services-main-text {
+		font-size: 18px;
+	}
+}

@@ -1,5 +1,6 @@
-import Button from './Button';
-import Link from './Link';
+import './styles.css'
+import Button from '../Button/Button';
+import Link from '../Link/Link';
 
 const HeaderRightContainer = () => {
 	return (

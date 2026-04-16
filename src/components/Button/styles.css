@@ -1,0 +1,28 @@
+.header__button {
+	border: 1px solid #c4c4c4;
+	border-radius: 2px;
+	width: 160px;
+	height: 30px;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+	color: #444;
+	background: #e8e8e8;
+	transition: all 0.2s ease;
+}
+
+.header__button:hover {
+	background: #ffffff;
+	border-radius: 25px;
+}
+
+@media (max-width: 450px) {
+	.header__button {
+		width: 93px;
+		height: 30px;
+		font-size: 10px;
+		text-wrap: nowrap;
+		padding: 0
+	}
+}

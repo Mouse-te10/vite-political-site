@@ -1,0 +1,106 @@
+.consultation-section__mobile {
+	display: none;
+	margin-top: 34px;
+	flex-wrap: wrap;
+}
+.consultation-section__mobile h3 {
+	letter-spacing: 0.5px;
+	font-family: var(--font-family);
+	font-weight: 900;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 23px;
+	color: #fff;
+}
+
+.consultation-section__mobile img {
+	width: 80%;
+}
+
+.consultation-form__mobile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #7c7c7c;
+	width: 100%;
+	padding-bottom: 29px;
+	padding-inline: 20px;
+}
+.consultation-form__mobile label {
+	font-family: var(--font-family);
+	font-weight: 300;
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 5px;
+	width: 244px;
+}
+.form__name__mobile, .form__telephone-number__mobile {
+	border-radius: 2px;
+	width: 244px;
+	height: 39px;
+	background: #dedede;
+	border: 1px solid #c4c4c4;
+	margin-bottom: 13px;
+	padding: 10px;
+	color: #444;
+}
+.consultation-form__mobile > input:focus, .consultation-form__mobile > textarea:focus {
+	border-radius: 4px;
+	outline: 3px solid #c4c4c4;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form__comment__mobile {
+	border: 1px solid #c4c4c4;
+	border-radius: 1px;
+	width: 244px;
+	height: 80px;
+	background: #dedede;
+	margin-bottom: 23px;
+	padding: 10px;
+	color: #444;
+}
+.button-consultation__mobile {
+	border-radius: 2px;
+	border: 0;
+	width: 244px;
+	height: 50px;
+	background: #eedc9d;
+	margin-bottom: 6px;
+
+	font-family: var(--font-family);
+	font-weight: 400;
+	letter-spacing: -1px;
+	font-size: 18px;
+	text-align: center;
+	color: #444;
+}
+
+.cons {
+	margin-top: 54px;
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	color: #7c7c7c;
+}
+
+@media (max-width: 1200px) {
+	.consultation-section__mobile {
+		justify-content: center;
+		gap: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+	.consultation-section__mobile {
+		display: flex;
+		gap: 0px;
+	}
+}

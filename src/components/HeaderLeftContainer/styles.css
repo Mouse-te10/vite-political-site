@@ -1,0 +1,32 @@
+.header__left-container {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.header__names {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 19px;
+	text-align: center;
+	color: #7c7c7c;
+}
+
+@media (max-width: 768px) {
+	.header__logo svg {
+		height: 37px;
+		width: 37px;
+	}
+}
+@media (max-width: 450px) {
+	.header__logo svg {
+		height: 37px;
+		width: 37px;
+	}
+	.header__left-container {
+		gap: 5px;
+	}
+	.header__names {
+		font-size: 12px;
+	}
+}

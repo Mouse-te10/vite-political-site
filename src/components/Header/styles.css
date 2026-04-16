@@ -1,0 +1,43 @@
+.header {
+	padding: 0
+}
+
+.header__container {
+	height: 70px;
+	padding-inline: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+hr {
+	width: 100vw;
+	color: #C4C4C4;
+	border: 1px solid;
+	position: relative;
+}
+
+@media (max-width: 1100px) {
+	.header__container {
+		padding-inline: 20px;
+	}
+}
+@media (max-width: 768px) {
+	.header__container {
+		height: 50px;
+		justify-content: space-between;
+		padding-inline: 10px;
+	}
+}
+@media (max-width: 450px) {
+	.header__button {
+		width: 93px;
+		height: 30px;
+		font-size: 10px;
+		text-wrap: nowrap;
+		padding: 0
+	}
+	.header__container {
+		padding-inline: 10px;
+	}
+}

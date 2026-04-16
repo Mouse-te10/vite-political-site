@@ -1,0 +1,54 @@
+.header__right-container {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.header__telephone-number {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	color: #444;
+	text-decoration: none;
+	padding: 10px;
+	transition: all 0.2s ease;
+}
+
+.header__telephone-number:hover {
+	background-color: #fff;
+	border-radius: 25px;
+}
+
+.header__telephone-button {
+	display: none;
+}
+
+.header__svg-button > svg {
+	color: #7C7C7C;
+	fill: #e8e8e8;
+	transition: all 0.2s ease;
+}
+
+.header__svg-button > svg:hover {
+	fill: #0077FF;
+	color: white;
+}
+
+@media (max-width: 768px) {
+	.header__telephone-number {
+		display: none;
+	}
+
+	.header__telephone-button {
+		display: inline;
+	}
+
+	.header__svg-button {
+		display: none;
+	}
+
+	.header__right-container {
+		gap: 20px;
+	}
+}

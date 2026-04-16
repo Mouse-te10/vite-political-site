@@ -1,0 +1,32 @@
+.consultation-section {
+	display: flex;
+	padding-left: 26px;
+	margin-top: 68px;
+	flex-wrap: wrap;
+}
+.consultation-section > div > h3 {
+	width: 454px;
+	margin-block: 82px;
+	font-family: var(--font-family);
+	font-weight: 900;
+	font-size: 22px;
+	text-align: center;
+	color: #7c7c7c;
+}
+
+
+@media (max-width: 1200px) {
+	.consultation-section {
+		justify-content: center;
+		gap: 30px;
+	}
+	.consultation-section > img {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.consultation-section {
+		display: none;
+	}
+}

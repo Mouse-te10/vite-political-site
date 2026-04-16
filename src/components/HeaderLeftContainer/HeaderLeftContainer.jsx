@@ -1,3 +1,5 @@
+import './styles.css'
+
 const HeaderLeftContainer = () => {
 	return (
 		<div className="header__left-container">

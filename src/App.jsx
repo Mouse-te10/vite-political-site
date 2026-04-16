@@ -1,17 +1,7 @@
-import Header from "./components/Header"
-import MainBlock from "./components/MainBlock"
-import Services from "./components/Services"
-import FixedBlock from "./components/FixedBlock"
+import Main from "./components/Main/Main.jsx"
 
 function App() {
-  return (
-    <>
-      <Header />
-      <FixedBlock />
-      <MainBlock />
-      <Services />
-    </>
-  )
+  return <Main />
 }
 
 export default App

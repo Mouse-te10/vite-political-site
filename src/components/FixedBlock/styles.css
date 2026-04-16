@@ -1,0 +1,26 @@
+.fixed-block {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 52px;
+	position: fixed;
+	z-index: 50000;
+	right: 24px;
+	top: 50%;
+}
+
+.fixed-block * {
+	cursor: pointer;
+}
+
+@media (max-width: 450px) {
+	.fixed-block {
+		display: flex;
+		flex-direction: column;
+		gap: 9px;
+		position: fixed;
+		z-index: 50000;
+		left: 0px;
+		top: 30%;
+	}
+}

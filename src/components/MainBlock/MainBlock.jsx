@@ -1,5 +1,6 @@
-import EkatAlina from "./EkatAlina"
-import WomanBiography from "./WomanBiography"
+import './styles.css'
+import EkatAlina from "../EkatAlina/EkatAlina"
+import WomanBiography from "../WomanBiography/WomanBiography"
 
 const MainBlock = () => {
 	const persons = {
@@ -30,7 +31,7 @@ const MainBlock = () => {
 					description={persons.woman1.description}
 					blockquote={persons.woman1.blockquote}
 				/>
-				<EkatAlina />
+				<EkatAlina className='main'/>
 				<WomanBiography 
 					profession={persons.woman2.profession}
 					name={persons.woman2.name}

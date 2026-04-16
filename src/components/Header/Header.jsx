@@ -1,5 +1,6 @@
-import HeaderLeftContainer from './HeaderLeftContainer';
-import HeaderRightContainer from './HeaderRightContainer';
+import HeaderLeftContainer from '../HeaderLeftContainer/HeaderLeftContainer';
+import HeaderRightContainer from '../HeaderRightContainer/HeaderRightContainer';
+import './styles.css'
 
 const Header = () => {
 	return (

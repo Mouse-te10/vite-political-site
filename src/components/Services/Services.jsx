@@ -1,5 +1,6 @@
-import servicesArr from "../data/servicesArr.jsx"
-import ServiceBlock from "./ServiceBlock.jsx";
+import './styles.css'
+import servicesArr from "../../data/servicesArr.jsx"
+import ServiceBlock from "../ServiceBlock/ServiceBlock.jsx";
 
 const Services = () => {
     return (

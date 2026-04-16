@@ -1,0 +1,44 @@
+.checkbox-container {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	gap: 6px;
+	user-select: none;
+}
+
+.checkbox-container input {
+	position: absolute;
+	opacity: 0;
+	clip: auto;
+	height: 0;
+	width: 0;
+}
+
+.label-text {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 12px;
+	color: #929292;
+	letter-spacing: -0.5px;
+}
+
+.svg-wrapper svg {
+	display: block;
+	transition: transform 0.1s ease;
+}
+  
+.checkbox-container:active .svg-wrapper svg {
+	transform: scale(0.9);
+}
+  
+.checkbox-container input:focus-visible + .svg-wrapper {
+	outline: 2px solid #E1C561;
+	outline-offset: 2px;
+	border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+	.label-text {
+		font-size: 10px;
+	}
+}

@@ -1,0 +1,22 @@
+.Ekat-Alina {
+	font-family: var(--font-family);
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+}
+
+.Ekat-Alina p {
+	text-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.15);
+}
+
+.main__logo {
+	height: 116px;
+	width: 116px;
+}
+
+@media (max-width: 1400px) {
+	.Ekat-Alina {
+		font-size: 20px;
+	}
+}

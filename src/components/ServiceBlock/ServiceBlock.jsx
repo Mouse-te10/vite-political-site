@@ -1,5 +1,6 @@
+import './styles.css'
 import { useState } from "react"
-import ListElement from "./ListElement"
+import ListElement from "../ListElement/ListElement"
 
 const ServiceBlock = (props) => {
     const {
@@ -20,7 +21,7 @@ const ServiceBlock = (props) => {
 			<p className="service-block__paragraph">{service.paragraph}</p>
 			{service.svg}
 			<svg className="service-spread" width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg" onClick={onClickLine}>
-				<circle cx="34" cy="34" r="33" stroke="#DFB46B" stroke-width="2" />
+				<circle cx="34" cy="34" r="33" stroke="#DFB46B" strokeWidth="2" />
 				<rect 
 					x="20" y="33.5" 
 					width="28" height="1" 
