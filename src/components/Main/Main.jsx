@@ -7,6 +7,9 @@ import ConsultationSection from "../ConsultationSection/ConsultationSection"
 import ConsultationSectionForMobile from "../ConsultationSectionForMobile/ConsultationSectionForMobile"
 import Advantages from "../Advantages/Advantages"
 import ContactUs from "../ContactUs/ContactUs"
+import Clients from "../Clients/Clients"
+import Footer from "../Footer/Footer"
+import FooterMobile from "../Footer/FooterMobile"
 
 function Main() {
   return (
@@ -20,6 +23,9 @@ function Main() {
 	  <ConsultationSectionForMobile />
 	  <Advantages />
 	  <ContactUs />
+	  <Clients />
+	  <Footer />
+	  <FooterMobile />
     </>
   )
 }

@@ -8,12 +8,11 @@ const Services = () => {
             <h2 className="services-main-text">Наши услуги</h2>
             <div className="services">
                 {servicesArr.map((service, index, array) => {
-                    const isLastThree = index >= array.length - 3;
 
                     return (
                         <ServiceBlock 
                             index={index}
-                            className={isLastThree ? 'service-block__last' : 'service-block'}
+                            className='service-block'
                             service={service}
                             key={index}
                         />
