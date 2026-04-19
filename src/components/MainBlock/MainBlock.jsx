@@ -1,8 +1,8 @@
 import './styles.css'
 import EkatAlina from "../EkatAlina/EkatAlina"
 import WomanBiography from "../WomanBiography/WomanBiography"
-import img1 from 'src/assets/images/whiteWoman.png'
-import img2 from 'src/assets/images/blackWoman.png'
+import img1 from '../../assets/images/whiteWoman.png'
+import img2 from '../../assets/images/blackWoman.png'
 
 const MainBlock = () => {
 	const persons = {
