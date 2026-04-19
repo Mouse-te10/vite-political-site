@@ -1,30 +1,36 @@
 import './styles.css'
+import icon1 from '../../assets/images/icon1.svg'
+import icon2 from '../../assets/images/icon2.svg'
+import icon3 from '../../assets/images/icon3.svg'
+import icon4 from '../../assets/images/icon4.svg'
+import icon5 from '../../assets/images/icon5.svg'
+import icon6 from '../../assets/images/icon6.svg'
 
 const Advantages = () => {
 
 	const advantagesArray = [
 		{
-			img: 'src/assets/images/icon1.svg',
+			img: icon1,
 			paragraph: 'Многолетний успешный опыт работы',
 		},
 		{
-			img: 'src/assets/images/icon2.svg',
+			img: icon2,
 			paragraph: 'Профессиональный подход к каждому делу',
 		},
 		{
-			img: 'src/assets/images/icon3.svg',
+			img: icon3,
 			paragraph: 'Высокий процент выйгранных дел',
 		},
 		{
-			img: 'src/assets/images/icon4.svg',
+			img: icon4,
 			paragraph: 'Всегда на связи с клиентами',
 		},
 		{
-			img: 'src/assets/images/icon5.svg',
+			img: icon5,
 			paragraph: 'Оперативность и пунктуальность в работе',
 		},
 		{
-			img: 'src/assets/images/icon6.svg',
+			img: icon6,
 			paragraph: 'Информирование о ходе дел на всех этапах',
 		},
 	]

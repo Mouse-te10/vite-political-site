@@ -2,6 +2,7 @@ import { useState } from 'react'
 import EkatAlina from '../EkatAlina/EkatAlina'
 import './styles.css'
 import FormForMobile from '../Forms/FormForMobile'
+import ImageForForm from '../../assets/images/ImageForForm.png'
 
 const ConsultationSectionForMobile = () => {
 	const [phone, setPhone] = useState('')
@@ -26,7 +27,7 @@ const ConsultationSectionForMobile = () => {
 	}
 	return (
 		<section className="consultation-section__mobile">
-			<img src="src/assets/images/ImageForForm.png" alt="" />
+			<img src={ImageForForm} alt="" />
 			<FormForMobile 
 				handleFocus={handleFocus}
 				handleBlur={handleBlur}

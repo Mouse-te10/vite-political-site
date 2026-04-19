@@ -2,6 +2,7 @@ import { useState } from 'react'
 import EkatAlina from '../EkatAlina/EkatAlina'
 import './styles.css'
 import Form from '../Forms/Form'
+import ImageForForm from '../../assets/images/ImageForForm.png'
 
 const ConsultationSection = () => {
 	const [phone, setPhone] = useState('')
@@ -26,7 +27,7 @@ const ConsultationSection = () => {
 	}
 	return (
 		<section className="consultation-section">
-			<img src="src/assets/images/ImageForForm.png" alt="" />
+			<img src={ImageForForm} alt="" />
 			<div>
 				<h3>Предварительная консультация по Вашим юридическим вопросам</h3>
 				<EkatAlina color=' #7c7c7c' className='cons'/>

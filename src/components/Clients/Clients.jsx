@@ -1,38 +1,45 @@
 import './styles.css'
+import Image1 from '../../assets/images/sliderImages/Image1.png'
+import Image2 from '../../assets/images/sliderImages/Image2.png'
+import Image3 from '../../assets/images/sliderImages/Image3.png'
+import Image4 from '../../assets/images/sliderImages/Image4.png'
+import Image5 from '../../assets/images/sliderImages/Image5.png'
+import Image6 from '../../assets/images/sliderImages/Image6.png'
+import Image7 from '../../assets/images/sliderImages/Image7.png'
 
 const Clients = () => {
 	const clientsArr = [
-		'src/assets/images/sliderImages/Image1.png',
-		'src/assets/images/sliderImages/Image2.png',
-		'src/assets/images/sliderImages/Image3.png',
-		'src/assets/images/sliderImages/Image4.png',
-		'src/assets/images/sliderImages/Image5.png',
-		'src/assets/images/sliderImages/Image6.png',
-		'src/assets/images/sliderImages/Image7.png',
-		'src/assets/images/sliderImages/Image1.png',
-		'src/assets/images/sliderImages/Image2.png',
-		'src/assets/images/sliderImages/Image3.png',
-		'src/assets/images/sliderImages/Image4.png',
-		'src/assets/images/sliderImages/Image5.png',
-		'src/assets/images/sliderImages/Image6.png',
-		'src/assets/images/sliderImages/Image7.png',
+		Image1,
+		Image2,
+		Image3,
+		Image4,
+		Image5,
+		Image6,
+		Image7,
+		Image1,
+		Image2,
+		Image3,
+		Image4,
+		Image5,
+		Image6,
+		Image7,
 	]
 
 	const clientsArrForMobile = [
-		'src/assets/images/sliderImages/Image4.png',
-		'src/assets/images/sliderImages/Image5.png',
-		'src/assets/images/sliderImages/Image6.png',
-		'src/assets/images/sliderImages/Image7.png',
-		'src/assets/images/sliderImages/Image1.png',
-		'src/assets/images/sliderImages/Image2.png',
-		'src/assets/images/sliderImages/Image3.png',
-		'src/assets/images/sliderImages/Image4.png',
-		'src/assets/images/sliderImages/Image5.png',
-		'src/assets/images/sliderImages/Image6.png',
-		'src/assets/images/sliderImages/Image7.png',
-		'src/assets/images/sliderImages/Image1.png',
-		'src/assets/images/sliderImages/Image2.png',
-		'src/assets/images/sliderImages/Image3.png',
+		Image5,
+		Image6,
+		Image7,
+		Image1,
+		Image2,
+		Image3,
+		Image4,
+		Image1,
+		Image2,
+		Image3,
+		Image4,
+		Image5,
+		Image6,
+		Image7,
 	]
 
 	return (
