@@ -1,6 +1,8 @@
 import './styles.css'
 import EkatAlina from "../EkatAlina/EkatAlina"
 import WomanBiography from "../WomanBiography/WomanBiography"
+import img1 from 'src/assets/images/whiteWoman.png'
+import img2 from 'src/assets/images/blackWoman.png'
 
 const MainBlock = () => {
 	const persons = {
@@ -20,9 +22,9 @@ const MainBlock = () => {
 	return (
 		<section className="main-block">
 			<div className="main-block__images">
-				<img className="main-block__images__img1" src="src/assets/images/whiteWoman.png" alt="" />
+				<img className="main-block__images__img1" src={img1} alt="" />
 				<h1 className="main-text">Профессиональные юридические услуги</h1>
-				<img className="main-block__images__img2" src="src/assets/images/blackWoman.png" alt="" />
+				<img className="main-block__images__img2" src={img2} alt="" />
 			</div>
 			<div className="main-block__gray-block">
 				<WomanBiography 
