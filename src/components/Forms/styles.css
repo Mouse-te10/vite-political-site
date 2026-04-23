@@ -127,3 +127,9 @@ input::-webkit-inner-spin-button {
 	text-align: center;
 	color: #444;
 }
+
+.input-error {
+	border: 1px solid red !important;
+	outline: none;
+  }
+  
