@@ -47,8 +47,8 @@ const ServiceBlock = (props) => {
                 ))}
             </ul>
             <div className="service-block__bottom-block">
-                <button className="service-block__button">Консультация</button>
-                <a href="/" className="service-block__link">Подробнее</a>
+                <a className="service-block__button" href="#consultation-section">Консультация</a>
+                <a href="#consultation-section" className="service-block__link">Подробнее</a>
             </div>
         </div>
     )

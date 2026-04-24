@@ -19,8 +19,10 @@ function Main() {
       <MainBlock />
       <Services />
 	  <FeaturesList />
-	  <ConsultationSection />
-	  <ConsultationSectionForMobile />
+	  <div id="consultation-section">
+		<ConsultationSection />
+		<ConsultationSectionForMobile />
+	  </div>
 	  <Advantages />
 	  <ContactUs />
 	  <Clients />

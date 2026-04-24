@@ -1,10 +1,10 @@
 import './styles.css'
 
-const Button = ({children}) => {
+const Button = ({children, href}) => {
 	return (
-		<button className='header__button'>
+		<a href={href} className='header__button'>
 			{children}
-		</button>
+		</a>
 	)
 }
 

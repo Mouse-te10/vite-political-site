@@ -64,8 +64,11 @@
     box-sizing: border-box;
 }
 
+html { scroll-behavior: smooth; }
+
 body {
 	background: #e8e8e8;
+	overflow-x: hidden;
 }
 
 button {
