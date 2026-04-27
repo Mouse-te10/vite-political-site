@@ -1,21 +1,31 @@
-# React + Vite
-  Этот проект был реализован по шаблону <https://www.figma.com/design/eRQRK09Gq8z0udMjF5Ng4t/%D1%8E%D1%80-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8?node-id=1-5&p=f&t=2f636TWaCqK3Kcu7-0>
+# ⚖️ Юридические услуги (React + Vite)
 
-# Функционал
-  *Слайдер
-  *Форма отправки
-  *Адаптивность
-  *Добавлена карта
+Проект реализован по макету из [Figma](https://www.figma.com/design/eRQRK09Gq8z0udMjF5Ng4t/%D1%8E%D1%80-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8?node-id=1-5&p=f&t=2f636TWaCqK3Kcu7-0).
 
-#Технологии
-  **React** - JS библиотека
-  **HTML & CSS** - языки разметки и стилей
-  **Vite** - сборщик проектов
-  **Yandex maps** - добавление карты на сайт
+## 🛠 Функционал
+- **Слайдер:** плавная прокрутка контента.
+- **Форма отправки:** сбор данных для обратной связи.
+- **Адаптивность:** корректное отображение на смартфонах и планшетах.
+- **Карта:** интеграция интерактивной карты.
 
-#Инструкция по запуску проекта
-  1. git clone https://github.com/Mouse-te10/vite-political-site.git
-  2. npm i
-  3. npm run dev
+## 💻 Технологии
+- **React** — UI библиотека.
+- **Vite** — быстрый сборщик проекта.
+- **Yandex Maps** — картографический сервис.
+- **HTML5 & CSS3** — верстка и стили.
 
-<img width="1920" height="962" alt="изображение" src="https://github.com/user-attachments/assets/af1cfb25-1605-46a4-94ba-b5b98be0fded" />
+## 🚀 Инструкция по запуску
+```bash
+# 1. Клонировать репозиторий
+git clone https://github.com/Mouse-te10/vite-political-site.git
+
+# 2. Установить зависимости
+npm install
+
+# 3. Запустить проект
+npm run dev
+```
+
+---
+
+<img src="https://github.com/user-attachments/assets/af1cfb25-1605-46a4-94ba-b5b98be0fded" width="100%" alt="Предпросмотр сайта">
